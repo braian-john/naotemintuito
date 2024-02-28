@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:naotemintuito/home_page.dart';
+import 'package:naotemintuito/module/home/view/home.dart';
 
-void main(){
-  runApp(const MaterialApp(debugShowCheckedModeBanner: false,
-    home: HomePage()
+void main () {
+  runApp (const MaterialApp(
+    home: Home(),
   ));
 }
